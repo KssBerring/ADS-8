@@ -32,7 +32,7 @@ int Train::getLength() {
         if (current->light == true) {
             current->light = false;
             int mlength = length;
-            len = 0;
+            length = 0;
             for (int i = 0; i < mlength; i++) {
                 current = current->prev;
                 countOp++;
